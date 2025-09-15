@@ -4,8 +4,7 @@
 
 ## 📰 News Query Assistant
 
-A custom knowledge assistant that answers news-related questions by combining OpenAI, LangChain, and a vector database (Chroma).
-Unlike a pure LLM baseline, this pipeline grounds answers in real documents, fact-checks outputs, and evaluates correctness against retrieved sources.
+A custom knowledge assistant that answers news-related questions by combining OpenAI, LangChain, and a vector database (Chroma). Unlike a pure LLM baseline, this pipeline grounds answers in real documents, fact-checks outputs, and evaluates correctness against retrieved sources — ensuring responses are traceable, verifiable, and resistant to hallucinations. An evaluation framework is included to benchmark performance against a zero-shot baseline.
 
 ---
 
