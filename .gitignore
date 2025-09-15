@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-*.env
+news.env.txt
 .DS_Store
 .Python
 build/
