@@ -59,13 +59,13 @@ Run the Jupyter Notebook step by step:
 
 ## 📊 Example Output
 
-Evaluation Table
+Evaluation Table:
 
 ![alt text](https://github.com/Samanaan/Lang_Chain_News_Project/blob/main/Images/Example1.png)
 
-Pipeline Architecture
+Pipeline Architecture:
 
-"Include a diagram (can make a simple flowchart in draw.io or Excalidraw):"
+![alt text](https://github.com/Samanaan/Lang_Chain_News_Project/blob/main/Images/News.png)
 
 ---
 
