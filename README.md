@@ -29,13 +29,20 @@ Unlike a pure LLM baseline, this pipeline grounds answers in real documents, fac
 🚀 Usage
 
 Run the Jupyter Notebook step by step:
-Load datasets (AG News + BBC latest).
-Create vector store using Chroma and OpenAI embeddings.
-Run pipeline with:
-Draft answer generation
-Fact-checking
-Final answer with citations
-Evaluate pipeline vs baseline to measure accuracy improvements.
+
+1. Load datasets (AG News + BBC latest).
+
+2. Create vector store using Chroma and OpenAI embeddings.
+
+3. Run pipeline with:
+
+- Draft answer generation
+
+- Fact-checking
+
+- Final answer with citations
+
+4. Evaluate pipeline vs baseline to measure accuracy improvements.
 
 📊 Example Outputs
 Evaluation Table
@@ -48,17 +55,24 @@ Pipeline Architecture
 🧪 Sample Questions
 
 Who is the CEO of Microsoft?
+
 What are the latest trends in renewable energy?
+
 What happened in the 2008 financial crisis?
+
 Who won the 2016 U.S. presidential election?
+
 What is quantum computing?
 
 
 🔮 Future Improvements
 
 Add weighted retriever to prioritize fresher sources.
+
 Integrate live news APIs (e.g., NewsAPI, GDELT) instead of static datasets.
+
 Deploy as a web app with Streamlit or FastAPI.
+
 Expand evaluation with LLM-as-judge + human spot-checks.
 
 
