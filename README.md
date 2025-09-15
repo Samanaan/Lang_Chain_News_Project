@@ -61,7 +61,7 @@ Run the Jupyter Notebook step by step:
 
 Evaluation Table
 
-![alt text](https://github.com/images/2025-09-15 at 12.47.28 AM.png)
+![alt text](https://github.com/Samanaan/Lang_Chain_News_Project/blob/main/Images/Example1.png)
 
 Pipeline Architecture
 
@@ -92,3 +92,20 @@ Integrate live news APIs (e.g., NewsAPI, GDELT) instead of static datasets.
 Deploy as a web app with Streamlit or FastAPI.
 
 Expand evaluation with LLM-as-judge + human spot-checks.
+
+---
+
+## Data Set Sources
+
+  **Dataset Name:** AG's News Topic Classification Dataset
+        
+  **Date:** 09/09/2015
+        
+  **URL:** [https://www.ncdc.noaa.gov/cag/global/time-series](https://huggingface.co/datasets/sh0416/ag_news/viewer/default/train?p=2&views%5B%5D=train&row=200)
+        
+
+  **Dataset Name:** Latest BBC News
+        
+  **Date:** 2024-09-09
+        
+  **URL:** [10.1596/978-1-4648-0382-1](https://huggingface.co/datasets/RealTimeData/bbc_latest)
