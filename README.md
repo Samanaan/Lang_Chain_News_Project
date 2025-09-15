@@ -94,7 +94,7 @@ Expand evaluation with LLM-as-judge + human spot-checks.
 
 ---
 
-## Data Set Sources
+## Dataset Sources
 
   **Dataset Name:** AG's News Topic Classification Dataset
         
