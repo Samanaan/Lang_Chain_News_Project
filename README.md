@@ -7,6 +7,8 @@
 A custom knowledge assistant that answers news-related questions by combining OpenAI, LangChain, and a vector database (Chroma).
 Unlike a pure LLM baseline, this pipeline grounds answers in real documents, fact-checks outputs, and evaluates correctness against retrieved sources.
 
+---
+
 ✨ Features
 
 🔍 Retrieval-Augmented Generation (RAG): Retrieves relevant passages from AG News and BBC datasets.
@@ -19,6 +21,8 @@ Unlike a pure LLM baseline, this pipeline grounds answers in real documents, fac
 
 🛠 Modular Design: Swap in different datasets or vector stores with minimal changes.
 
+---
+
 📂 Project Structure
 ├── News_query_project.ipynb   # Main notebook with pipeline
 
@@ -29,6 +33,8 @@ Unlike a pure LLM baseline, this pipeline grounds answers in real documents, fac
 ├── requirements.txt           # Dependencies
 
 └── README.md                  # Project overview
+
+---
 
 🚀 Usage
 
@@ -48,6 +54,8 @@ Run the Jupyter Notebook step by step:
 
 4. Evaluate pipeline vs baseline to measure accuracy improvements.
 
+---
+
 📊 Example Outputs
 
 Evaluation Table
@@ -58,6 +66,7 @@ Pipeline Architecture
 
 "Include a diagram (can make a simple flowchart in draw.io or Excalidraw):"
 
+---
 
 🧪 Sample Questions
 
@@ -71,6 +80,7 @@ Who won the 2016 U.S. presidential election?
 
 What is quantum computing?
 
+---
 
 🔮 Future Improvements
 
