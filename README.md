@@ -57,11 +57,11 @@ Run the Jupyter Notebook step by step:
 
 ---
 
-## 📊 Example Outputs
+## 📊 Example Output
 
 Evaluation Table
 
-Add a screenshot of the pandas DataFrame comparison:
+![alt text](https://github.com/images/Screenshot 2025-09-15 at 12.47.28 AM.png)
 
 Pipeline Architecture
 
