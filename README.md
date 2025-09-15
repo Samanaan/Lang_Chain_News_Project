@@ -2,14 +2,14 @@
 ![LangChain](https://img.shields.io/badge/langchain-active-brightgreen)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-orange)
 
-📰 News Query Assistant
+## 📰 News Query Assistant
 
 A custom knowledge assistant that answers news-related questions by combining OpenAI, LangChain, and a vector database (Chroma).
 Unlike a pure LLM baseline, this pipeline grounds answers in real documents, fact-checks outputs, and evaluates correctness against retrieved sources.
 
 ---
 
-✨ Features
+## ✨ Features
 
 🔍 Retrieval-Augmented Generation (RAG): Retrieves relevant passages from AG News and BBC datasets.
 
@@ -23,7 +23,8 @@ Unlike a pure LLM baseline, this pipeline grounds answers in real documents, fac
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
+
 ├── News_query_project.ipynb   # Main notebook with pipeline
 
 ├── data/                      # Placeholder for datasets (AG News, BBC, etc.)
@@ -36,7 +37,7 @@ Unlike a pure LLM baseline, this pipeline grounds answers in real documents, fac
 
 ---
 
-🚀 Usage
+## 🚀 Usage
 
 Run the Jupyter Notebook step by step:
 
@@ -56,7 +57,7 @@ Run the Jupyter Notebook step by step:
 
 ---
 
-📊 Example Outputs
+## 📊 Example Outputs
 
 Evaluation Table
 
@@ -68,7 +69,7 @@ Pipeline Architecture
 
 ---
 
-🧪 Sample Questions
+## 🧪 Sample Questions
 
 Who is the CEO of Microsoft?
 
@@ -82,7 +83,7 @@ What is quantum computing?
 
 ---
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Add weighted retriever to prioritize fresher sources.
 
