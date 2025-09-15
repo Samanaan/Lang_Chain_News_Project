@@ -21,9 +21,13 @@ Unlike a pure LLM baseline, this pipeline grounds answers in real documents, fac
 
 📂 Project Structure
 ├── News_query_project.ipynb   # Main notebook with pipeline
+
 ├── data/                      # Placeholder for datasets (AG News, BBC, etc.)
+
 ├── images/                    # Screenshots / diagrams for README
+
 ├── requirements.txt           # Dependencies
+
 └── README.md                  # Project overview
 
 🚀 Usage
@@ -36,21 +40,24 @@ Run the Jupyter Notebook step by step:
 
 3. Run pipeline with:
 
-- Draft answer generation
+  - Draft answer generation
 
-- Fact-checking
+  - Fact-checking
 
-- Final answer with citations
+  - Final answer with citations
 
 4. Evaluate pipeline vs baseline to measure accuracy improvements.
 
 📊 Example Outputs
+
 Evaluation Table
 
 Add a screenshot of the pandas DataFrame comparison:
 
 Pipeline Architecture
+
 "Include a diagram (can make a simple flowchart in draw.io or Excalidraw):"
+
 
 🧪 Sample Questions
 
@@ -74,5 +81,3 @@ Integrate live news APIs (e.g., NewsAPI, GDELT) instead of static datasets.
 Deploy as a web app with Streamlit or FastAPI.
 
 Expand evaluation with LLM-as-judge + human spot-checks.
-
-
